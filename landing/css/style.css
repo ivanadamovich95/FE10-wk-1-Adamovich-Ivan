@@ -1,0 +1,82 @@
+@import url("../css/header.css");
+@import url("../css/social.css");
+@import url("../css/awesome.css");
+@import url("../css/price.css");
+@import url("../css/customers.css");
+@import url("../css/axure.css");
+@import url("../css/animation.css");
+@import url("../css/footer.css");
+@import url("../css/first-screen.css");
+@import url("../css/form.css");
+@import url("../css/contact.css");
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-view__link{
+  text-decoration: none;
+  display: block;
+  width: 140px;
+  padding: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  border: 1px solid #FFFFFF;
+  box-shadow: 3px 3px 20px transparant ;
+  transition: 0.5s all;
+}
+.btn-view__link:hover{
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgba(0,0,0,.8);
+  border: 1px solid #000000;
+  /* box-shadow: 3px 3px 20px 10px  rgba(75, 69, 69, 0.8); */
+  /* opacity: 0.8; */
+}
+
+.form-item {
+  width: 100%;
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 14px;
+  color: #BDBDBD;
+
+}
+.label {
+  display: block;
+}
+.form-item input, .form-item textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  outline: none;
+}
+
+.form-btn {
+  font-size: 15px;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: none;
+  background: #e97272;
+  transition: 0.5s all ease;
+}
+.form-btn:hover{
+  background-color:#e72929;
+}
